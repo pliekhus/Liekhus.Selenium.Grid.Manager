@@ -1,0 +1,71 @@
+﻿.specbindContainer {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    background-color: #272B30;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    max-width: 400px;
+    min-width: 250px;
+    height: 100%;
+    z-index: 999999;
+    color: #ffffff;
+}
+
+    .specbindContainer h1 {
+        background-color: red;
+        border: 5px solid red;
+        color: #ffffff;
+        font-size: 18px;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+    .specbindContainer h2 {
+        color: #ffffff;
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+.specbindContainer table {
+    width: 100%;
+    border: none;
+    margin: 2px;
+    line-height: 1em;
+
+}
+
+.specbindContainer th {
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+}
+    .specbindContainer tr {
+        border: none;
+    }
+
+    .specbindContainer td {
+        color: white;
+        padding: 4px;
+        border: none;
+    }
+    
+    .specbindContainer input, .specbindContainer textarea {
+    background-color: white;
+    color: black;
+}
+
+.specbindHighlight {
+    border: 2px solid orange;
+}
+
+.specbindHighlightText {
+    background-color: orange;
+    font-size: 9px;
+    font-weight: bold;
+    color: black;
+}
